@@ -1,17 +1,12 @@
-Doshi, Harsh Amit 22203459
-
-Dulkin, Ilia 22112260
-
 # Car Price Recommendation System
 
-Repository: [Car Price Recommendation System](https://mygit.th-deg.de/id05260/car-price-recommendation-system
-)
+Repository: [Car Price Recommendation System](https://github.com/ded0inside/Car-price-recommendation-system)
 
 Original dataset taken from kaggle.com: [Dataset](https://www.kaggle.com/datasets/sukhmanibedi/cars4u)
 
-Cleaned dataset suitable for GUI: [Dataset](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/used_cars_data_cleaned.csv?ref_type=heads)
+Cleaned dataset suitable for GUI: [Dataset](https://github.com/ded0inside/Car-price-recommendation-system/blob/main/used_cars_data_cleaned.csv)
 
-Dataset suitable for model training: [Dataset](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/cardata_numerized.csv?ref_type=heads)
+Dataset suitable for model training: [Dataset](https://github.com/ded0inside/Car-price-recommendation-system/blob/main/cardata_numerized.csv)
 ## Project Description
 Our project is designed to help users from India predict the approximate price of a used car according to their preferences.
 
@@ -25,11 +20,11 @@ Our project is designed to help users from India predict the approximate price o
 | numpy  | 1.26.3   |
 | pandas | 2.1.4|
 | scikit-learn | 1.3.2|
-| used_cars_data_cleaned | [link](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/used_cars_data_cleaned.csv?ref_type=heads)|
-| cardata_numerized | [link](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/cardata_numerized.csv?ref_type=heads)|
+| used_cars_data_cleaned | [link](https://github.com/ded0inside/Car-price-recommendation-system/blob/main/used_cars_data_cleaned.csv)|
+| cardata_numerized | [link](https://github.com/ded0inside/Car-price-recommendation-system/blob/main/cardata_numerized.csv)|
 
 ## Installation
-Please download [*main.py*](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/main.py?ref_type=heads), [*cardata_numerized.csv*](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/cardata_numerized.csv?ref_type=heads) and [*used_cars_data_cleaned.csv*](https://mygit.th-deg.de/id05260/car-price-recommendation-system/-/blob/main/used_cars_data_cleaned.csv?ref_type=heads) files into the same folder. Also the whole project can be downloaded as a zip file.
+Please download [*main.py*](https://github.com/ded0inside/Car-price-recommendation-system/blob/main/main.py), [*cardata_numerized.csv*](https://github.com/ded0inside/Car-price-recommendation-system/blob/main/cardata_numerized.csv) and [*used_cars_data_cleaned.csv*](https://github.com/ded0inside/Car-price-recommendation-system/blob/main/cardata_numerized.csv) files into the same folder. Also the whole project can be downloaded as a zip file.
 
 All libraries from prerequisites section should be also installed for success running of the program.
 
@@ -153,20 +148,22 @@ We splitted dataset from "used_cars_dataset_cleaned.csv" file into 4 parts: X, y
 
 Mean squared error is equal to 0.1, which could be called a good result 
 
-## Work Done
+## Contributing
 
-Harsh's part:
-- GUI
-- Integration of Matplotlib in PyQt6
-- Data analisys and plotting of:
-    - Age Of Car Vs Price,
-    - Fuel Type Vs Mileage,
-    - Number Of Seats Vs Price
+We welcome contributions! Please follow these steps to contribute:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature`)
+6. Create a new pull request
 
-Ilia's part:
-- Dataset cleaning, exploration and description.
-- Scikit-Learn
-- Data analisys and plotting of:
-    - Owner Type Vs Price
-    - Transmission Distribution
-    - Seats Number Distribution
+Please ensure your code follows our coding standards.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit).
+
+## Contact
+
+For questions or support, contact [ilia.dulkin@stud.th-deg.de](mailto:ilia.dulkin@stud.th-deg.de).
